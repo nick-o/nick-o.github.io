@@ -1,0 +1,36 @@
+:root {
+  --bg: #0f172a;
+  --text: #94a3b8;
+  --text-strong: #cbd5e1;
+  --text-h: #e2e8f0;
+  --border: #1e293b;
+  --accent: #d4a373;
+  --accent-hover: #e0b489;
+
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
