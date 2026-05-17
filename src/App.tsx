@@ -43,7 +43,7 @@ function App() {
           >
             GitHub
           </a>
-          <a href="/cv.pdf" className="cta">
+          <a href="/cv.docx" className="cta" download>
             Download CV
           </a>
         </nav>
