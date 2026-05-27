@@ -18,8 +18,15 @@ function App() {
   return (
     <main>
       <header className="hero">
-        <h1>Nico Engelen</h1>
-        <p className="headline">Cloud Architect &amp; Senior DevOps Consultant</p>
+        <div className="hero-top">
+          <img src="/me.jpg" alt="Nico Engelen" className="avatar" />
+          <div className="hero-titles">
+            <h1>Nico Engelen</h1>
+            <p className="headline">
+              Cloud Architect &amp; Senior DevOps Consultant
+            </p>
+          </div>
+        </div>
         <p className="bio">
           15+ years on Azure and AWS, sitting between architecture and
           hands-on engineering. I take on senior cloud and platform
@@ -61,11 +68,11 @@ function App() {
       <section className="availability">
         <h2>Availability</h2>
         <p>
-          Currently engaged with Parloa via Equal Experts. Next availability:
-          approximately Q1 2027.
+          Currently engaged with Parloa via Equal Experts. Available for new
+          client work from 1 July 2026.
         </p>
         <p>
-          To discuss future work, get in touch at{' '}
+          To discuss work, get in touch at{' '}
           <a href="mailto:nico@engelen.io">nico@engelen.io</a>.
         </p>
       </section>
